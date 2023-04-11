@@ -1,0 +1,79 @@
+
+div.TabView div.Tabs
+{
+  height: 100px;
+  overflow: hidden;
+  width:  223px;
+}
+
+div.TabView div.Tabs a
+{
+  float: left;
+  display: block;
+
+  width:  223px;
+  text-align: center;
+  padding-top: -1px;
+  vertical-align: middle;
+	
+	border-bottom-width: 0;
+
+  text-decoration: none;
+  font-family: "Times New Roman", Serif;
+  font-weight: 900;
+  color: #000080;
+}
+
+
+div.TabView div.Pages
+{
+  clear: both;
+ 
+  overflow: hidden;
+
+  padding-top: 20px;
+}
+
+div.TabView div.Pages div.Page
+{
+  height: 100%;
+  padding: 0px;
+  overflow: hidden;
+}
+
+
+
+div.TabView div.Pages div.Page div.Pad
+{
+  padding: 3px 5px;
+}
+
+.settings-tab-selected {background:url(../images/settings-tab-selected.png) no-repeat; width:223px; height:75px; float:left;margin-right:5px;}
+.settings-tab { background:url(../images/settings-tab.png) no-repeat; width:223px; height:75px; float:left; margin-right:9px; margin-left:-6px;}
+.settings-tab-icon {width:60px; float:left; padding:20px 15px 0 16px; }
+.settings-tab-text {height:75px; float:left; padding:20px 0px 0 0;}
+.settings-tab-text h3 {font:bold 14px "PT Sans", sans-serif, Arial !important; color:#262626; padding:0; margin:0 !important; }
+.settings-tab-text p {font:normal 12px "PT Sans", sans-serif, Arial !important; color:#7a7a7a; padding:0; margin:0;}
+
+#TabView ul,li { list-style:none;}
+#TabView {margin:0 0 20px 0;}
+
+
+#TabView li {
+    list-style: none;
+    float:left;
+}
+
+#TabView ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+#TabView  ul li {
+    background:url(../images/settings-tab.png) no-repeat; width:223px; height:75px; float:left; margin-right:4px; margin-left:-1px;
+
+}
+
+#TabView ul li.settings-tab-selected { background:url(../images/settings-tab-selected.png) no-repeat; width:223px; height:75px; float:left;margin-right:4px;}
+

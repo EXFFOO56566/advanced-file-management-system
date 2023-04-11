@@ -1,0 +1,59 @@
+/*  ADVANCED STYLES */
+.top_testresult {
+    color: #666666;
+    font-family: arail,helvetica,san-serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    margin: 4px 0 0;
+    padding: 1px 0 3px;
+    width: 295px;
+}
+.top_testresult span{
+	padding:6px ;
+
+}
+.top_shortPass {
+    background: none repeat scroll 0 0 #EDABAB;
+    border: 1px solid #BC0000;
+    border-radius: 2px;
+    display: block;
+    height: auto;
+    width: 278px;
+}
+.top_shortPass span{
+
+}
+.top_badPass {
+    background: none repeat scroll 0 0 #EDABAB;
+    border: 1px solid #BC0000;
+    border-radius: 2px;
+    display: block;
+    height: auto;
+    width: 278px;
+}
+.top_badPass span{
+	
+}
+.top_goodPass{
+	background:#ede3ab;
+	border:1px solid #bc9f00;
+    border-radius: 2px;
+    display: block;
+    height: auto;
+    width: 278px;
+}
+.top_goodPass span{
+
+}
+.top_strongPass{
+	background:#d3edab;
+	border:1px solid #73bc00;
+    border-radius: 2px;
+    display: block;
+    height: auto;
+    width: 278px;
+}
+.top_strongPass span{
+
+}

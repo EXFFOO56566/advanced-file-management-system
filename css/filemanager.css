@@ -1,0 +1,305 @@
+/********************************************************************************
+* #                      Advanced File Manager v3.0
+* #******************************************************************************
+* #      Author:     Convergine.com
+* #      Email:      info@convergine.com
+* #      Website:    http://www.convergine.com
+* #
+* #
+* #      Version:    3.0
+* #      Copyright:  (c) 2009 - 2014 - Convergine.com
+* #
+* #*******************************************************************************/
+
+body {
+    margin: 0 auto;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#content {
+    padding: 15px 0 0 0;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.login_container {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #039;
+    background-color: #CEECFB;
+    width: 420px;
+    margin: 0 auto;
+}
+
+.login {
+    background: url("../images/key_64.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    line-height: 200%;
+    padding: 0;
+}
+
+.menu {
+    text-align: center;
+    border-bottom: 1px solid #666;
+}
+
+.item {
+    text-align: center;
+    width: 120px;
+    margin: 0 6px 0 6px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.topRow {
+    background: #069;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+
+.odd {
+    background: #EFF3ED;
+    font-size: 11px;
+}
+
+.even {
+    background: #FFFFFF;
+    font-size: 11px;
+}
+
+.paging a {
+    color: #06C;
+}
+
+.extensions_text {
+    font-size: 9px;
+}
+
+#blogComments {
+}
+
+#blogComments .commentWrap {
+    margin: 10px 0;
+}
+
+#blogComments .commentAuthor {
+}
+
+#blogComments .commentAuthor img {
+    float: left
+}
+
+#blogComments .commentAuthor ul {
+    margin-left: 7px;
+    padding-top: 10px;
+    float: left;
+    list-style: none;
+}
+
+#blogComments .commentAuthor ul li {
+    margin: 0;
+    padding: 0
+}
+
+#blogComments .commentAuthor ul li.siteLink a {
+    color: #333;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none
+}
+
+#blogComments .commentAuthor ul li.date {
+    color: #555;
+    font-size: 11px;
+    text-transform: uppercase
+}
+
+.commentWrap {
+    position: relative
+}
+
+#blogComments .commentEntry {
+    margin: 15px 0 0 0;
+    padding: 7px 15px;
+    background: #ecebeb;
+    border: 1px solid #dbdbdb
+}
+
+ul.menu, ul.menu ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    width: 100%;
+
+    text-align: left;
+
+    border-bottom: 0 !important;
+
+}
+
+ul.menu table {
+    font-size: 11px;
+}
+
+ul.menu a {
+
+    display: block;
+
+    text-decoration: none;
+
+}
+
+ul.menu li {
+
+}
+
+ul.menu li a, ul.menu ul.menu li a {
+
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.1em;
+
+    border: 1px solid #d3d3d3;
+    color: #555555;
+
+    background: #dadada url(smoothness/images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;
+
+    cursor: pointer;
+    position: relative;
+    margin-top: 1px;
+    zoom: 1;
+
+    display: block;
+    font-size: 1em;
+    padding: .5em .5em .5em .7em;
+
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+
+    outline: none;
+
+}
+
+ul.menu li a:hover, ul.menu ul.menu li a:hover {
+
+    border: 1px solid #999999;
+    color: #222222;
+    outline: none;
+
+}
+
+ul.menu li ul li a, ul.menu ul.menu li ul li a {
+
+    background: #ccc;
+
+    color: #000;
+
+    padding-left: 20px;
+
+}
+
+ul.menu li ul li a:hover, ul.menu ul.menu li ul li a:hover {
+
+    background: #aaa;
+
+    border-left: 5px #000 solid;
+
+    padding-left: 15px;
+
+}
+
+ul.menu ul.menu li a:hover {
+
+    border-left: 0;
+
+    padding-left: 0.5em;
+
+}
+
+ul.menu ul.menu {
+
+    border-left: 5px #f00 solid;
+
+}
+
+ul.menu a.active, ul.menu ul.menu li a.active, ul.menu a.active:hover, ul.menu ul.menu li a.active:hover {
+
+    text-decoration: none;
+
+    border: 1px solid #aaaaaa;
+    background: #ffffff url(smoothness/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #212121;
+
+    border-bottom: 0 !important;
+
+    outline: none;
+
+}
+
+div.panel {
+
+    border: 1px #999999 solid;
+
+    padding: 5px;
+
+    margin-top: -2px !important;
+
+    border-top: none;
+
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+ul.menu div.panel a, ul.menu div.panel li a:hover {
+
+    display: inline;
+
+    color: #666;
+
+    background: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    border: none;
+
+    font-weight: bold;
+
+}
+
+ul.menu div.panel a:hover {
+
+    color: #000;
+
+    text-decoration: underline;
+
+}
+
+.index_h1 {
+    text-align: center;
+    width: 100%;
+}
